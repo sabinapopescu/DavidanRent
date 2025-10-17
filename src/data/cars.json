@@ -1,0 +1,206 @@
+[
+  {
+    "id": "dacia-logan-2022-001",
+    "slug": "dacia-logan-2022",
+    "title": "Dacia Logan 2022",
+    "make": "Dacia",
+    "model": "Logan",
+    "year": 2022,
+    "photos": [
+      {
+        "src": "dacia-logan-2022",
+        "alt": "Dacia Logan 2022"
+      }
+    ],
+    "specs": {
+      "fuel": "benzina",
+      "gearbox": "manuala",
+      "body": "Sedan",
+      "seats": 5,
+      "doors": 4,
+      "luggage": 3,
+      "year": 2022
+    },
+    "pricePerDay": {
+      "amount": 18,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 150,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": true
+  },
+  {
+    "id": "vw-passat-2020-001",
+    "slug": "volkswagen-passat-2020",
+    "title": "Volkswagen Passat 2020",
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2020,
+    "photos": [
+      {
+        "src": "vw-passat-2020",
+        "alt": "Volkswagen Passat 2020"
+      }
+    ],
+    "specs": {
+      "fuel": "diesel",
+      "gearbox": "automata",
+      "body": "Sedan",
+      "seats": 5,
+      "doors": 4,
+      "luggage": 4,
+      "year": 2020
+    },
+    "pricePerDay": {
+      "amount": 35,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 300,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": true
+  },
+  {
+    "id": "toyota-camry-2021-001",
+    "slug": "toyota-camry-2021",
+    "title": "Toyota Camry 2021",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "photos": [
+      {
+        "src": "toyota-camry-2021",
+        "alt": "Toyota Camry 2021"
+      }
+    ],
+    "specs": {
+      "fuel": "hibrid",
+      "gearbox": "automata",
+      "body": "Sedan",
+      "seats": 5,
+      "doors": 4,
+      "luggage": 4,
+      "year": 2021
+    },
+    "pricePerDay": {
+      "amount": 45,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 350,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": true
+  },
+  {
+    "id": "bmw-x5-2022-001",
+    "slug": "bmw-x5-2022",
+    "title": "BMW X5 2022",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2022,
+    "photos": [
+      {
+        "src": "bmw-x5-2022",
+        "alt": "BMW X5 2022"
+      }
+    ],
+    "specs": {
+      "fuel": "diesel",
+      "gearbox": "automata",
+      "body": "SUV",
+      "seats": 7,
+      "doors": 5,
+      "luggage": 5,
+      "year": 2022
+    },
+    "pricePerDay": {
+      "amount": 70,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 500,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": false
+  },
+  {
+    "id": "mercedes-c-class-2021-001",
+    "slug": "mercedes-c-class-2021",
+    "title": "Mercedes-Benz C-Class 2021",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2021,
+    "photos": [
+      {
+        "src": "mercedes-c-class-2021",
+        "alt": "Mercedes-Benz C-Class 2021"
+      }
+    ],
+    "specs": {
+      "fuel": "benzina",
+      "gearbox": "automata",
+      "body": "Sedan",
+      "seats": 5,
+      "doors": 4,
+      "luggage": 3,
+      "year": 2021
+    },
+    "pricePerDay": {
+      "amount": 55,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 400,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": true
+  },
+  {
+    "id": "renault-clio-2023-001",
+    "slug": "renault-clio-2023",
+    "title": "Renault Clio 2023",
+    "make": "Renault",
+    "model": "Clio",
+    "year": 2023,
+    "photos": [
+      {
+        "src": "renault-clio-2023",
+        "alt": "Renault Clio 2023"
+      }
+    ],
+    "specs": {
+      "fuel": "benzina",
+      "gearbox": "manuala",
+      "body": "Hatchback",
+      "seats": 5,
+      "doors": 5,
+      "luggage": 2,
+      "year": 2023
+    },
+    "pricePerDay": {
+      "amount": 22,
+      "currency": "EUR"
+    },
+    "deposit": {
+      "amount": 150,
+      "currency": "EUR"
+    },
+    "minDays": 1,
+    "blocked": [],
+    "featured": false
+  }
+]
