@@ -109,3 +109,14 @@ All colors MUST be HSL.
     @apply bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent;
   }
 }
+/* Make the datetime-local picker icon white */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(2);
+  opacity: 1;
+}
+
+/* Optional: Firefox */
+input[type="datetime-local"]::-moz-calendar-picker-indicator {
+  filter: invert(1) brightness(2);
+  opacity: 1;
+}

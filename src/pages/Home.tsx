@@ -19,6 +19,24 @@ import carsData from '@/data/cars.json';
 import { Car } from '@/lib/types';
 import heroImage from '@/assets/hero-bg.jpg';
 
+function useMediaQuery(query: string) {
+  const [matches, setMatches] = useState(false);
+
+  useEffect(() => {
+    const mql = window.matchMedia(query);
+    const onChange = () => setMatches(mql.matches);
+    onChange(); // set initial
+    if (mql.addEventListener) mql.addEventListener('change', onChange);
+    else mql.addListener(onChange);
+    return () => {
+      if (mql.removeEventListener) mql.removeEventListener('change', onChange);
+      else mql.removeListener(onChange);
+    };
+  }, [query]);
+
+  return matches;
+}
+
 const Home = () => {
   const { language } = useAppStore();
   const { t } = useTranslation(language);
@@ -47,6 +65,8 @@ const Home = () => {
     { icon: Star, title: t.features.bestPrice, description: t.features.bestPriceDesc },
     { icon: Phone, title: t.features.newCars, description: t.features.newCarsDesc },
   ];
+  const isDesktop = useMediaQuery('(min-width: 768px)');
+
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -55,7 +75,12 @@ const Home = () => {
       {/* Hero Section - Full height with car showcase */}
       <motion.section 
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
-        style={prefersReducedMotion ? {} : { opacity: heroOpacity, scale: heroScale }}
+        style={
+          prefersReducedMotion || !isDesktop
+            ? {} 
+            : { opacity: heroOpacity, scale: heroScale }
+        }
+        
       >
         {/* Dark background with hero image */}
         <div className="absolute inset-0 bg-background z-0">
